@@ -10,9 +10,9 @@ public class PentagonCrazy {
 
 	private void makePrettyThings() {
 		// 1. Create a new Robot
-
+		Robot csy = new Robot();
 		// 3. Put the robot's pen down
-
+		csy.penDown();
 		// 8. Make the robot go at maximum speed (100)
 
 		// 9. Set the pen to a color that you like for the shape
@@ -24,7 +24,7 @@ public class PentagonCrazy {
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
 
 			// 2. Move the robot 200 pixels
-	
+			csy.move(200);
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
 	
 			// 6. Turn the robot the amount in your angle variable
