@@ -25,7 +25,7 @@ public class PentagonCrazy {
 		int angle = 360/5;
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you
 		// should see a pentagon
-		for (int i = 0; i < 1000000; i++) {
+		for (int i = 0; i < 10000000; i++) {
 		
 			csy.penDown();
 
